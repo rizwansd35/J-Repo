@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                echo 'Hello World'
+                git branch: 'main', url: 'https://github.com/rizwansd35/J-Repo.git'
             }
         }
     }
